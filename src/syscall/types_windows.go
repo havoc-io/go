@@ -32,6 +32,9 @@ const (
 )
 
 const (
+	// Reserved values, documented to avoid collisions with Windows API flags.
+	o_FILE_SHARE_DELETE = 0x00000004
+
 	// Invented values to support what package os expects.
 	O_RDONLY   = 0x00000
 	O_WRONLY   = 0x00001
